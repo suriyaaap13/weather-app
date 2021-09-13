@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+    height: 100vh;
+    font-family: sans-serif;
+    background-image: url(https://source.unsplash.com/random);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.card{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 2rem;
+    border-radius: 30px;
+    max-width: 320px;
+    width: 100%;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+}
+.search input{
+    height: 1.3rem;
+    outline: none;
+    border: none;
+    background-color: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 18px;
+    padding: 0.5rem 0.7rem;
+    width: 82%;
+    border-radius: 1rem;
+    margin-right: -10px;
+}
+.search button{
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #7c7c7c2b;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.search button:hover{
+    background-color: #7c7c7c6b;
+}
+.icon{
+    display: inline-block;
+}
+.description{
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+.flex-box{
+    display: flex;
+    align-items: center;
+}
+.temp{
+    font-size: 2rem;
+}
+.humidity{
+    padding: 3px;
+}
+.wind{
+    padding: 3px;
+}
